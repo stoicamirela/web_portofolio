@@ -1,17 +1,22 @@
 import s from "./style.module.css";
 
-export default function PageComponent(){
-    return (
-        <div className={s.page_content}>
-            <p>
-            GraphicDesign.io is a company that offers outsourcing services of high-quality graphic design to other businesses. They have a team of professional graphic designers who can manage design-related assignments or projects that would otherwise be conducted within the organization. Here are some key points that GraphicDesign.io would likely include in a presentation:
-            <ul>
-                <li><b>What is outsourcing in graphic design?</b> Outsourcing graphic design involves enlisting the services of design agencies or freelance professionals to manage design-related assignments or projects that would otherwise be conducted within the organization. This approach proves advantageous, particularly for businesses lacking the necessary resources or specialized knowledge to manage specific design tasks or seeking cost-reduction strategies.</li>
-                <li><b>Why outsource graphic design?</b>Outsourcing graphic design can save businesses thousands of dollars and provide access to a large pool of designers offering versatile services like video editing, graphic designs, and more. It can also help businesses overcome design challenges and ensure high-quality designs that align with their brand image.</li>
-                <li><b>How to outsource graphic design?</b> There are several ways to outsource graphic design, including working with freelance graphic designers, design agencies, or using a design subscription service. When outsourcing, it's important to find the right talent, establish clear communication, and ensure quality control.</li>
-                <li><b>Why choose GraphicDesign.io?</b> GraphicDesign.io is a company that offers high-quality outsourcing services of graphic design to other businesses. They have a team of professional graphic designers who can manage design-related assignments or projects that would otherwise be conducted within the organization. They have a quick, simple, and easy-to-follow process, and their graphic designers deliver each order quickly.</li>
-            </ul>
-            </p>
-        </div>
-    );
+export default function PageComponent() {
+  return (
+    <div id="content">
+      <h1>About us</h1>
+      <div className={s.page_content} id="about">
+        <p>
+        Hello there! At GraphicDesign.io, we offer a range of specialized services to help businesses achieve their design goals. Here are some of the services we provide:
+        <ul>
+            <li><b>Logo Design:</b> We can help you create a unique and visually appealing logo that effectively represents your brand image.</li>
+            <li><b>Web Design:</b> Our team of professional designers can help you design a website that is visually appealing, user-friendly, and effectively represents your brand image.</li>
+            <li><b>Brochure Design:</b> We can help you design brochures that are visually appealing and informative, providing your customers with all the information they need about your products or services.</li>
+            <li><b>Marketing Collateral Design:</b> We can help you design marketing collateral, such as flyers, posters, and social media graphics, that are visually appealing and effective in promoting your business.</li>
+            <li><b>Illustration Design:</b> We can help you design illustrations that are unique and visually appealing, adding a touch of creativity to your marketing materials.</li>
+            <li><b>Product Design:</b> We can help you design product pages that showcase your products, services, or ideas, as well as product packaging that is visually appealing and effective in promoting your products.</li>
+        </ul>
+        </p>
+      </div>
+    </div>
+  );
 }
