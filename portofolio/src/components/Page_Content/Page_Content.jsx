@@ -1,5 +1,5 @@
 import s from "./style.module.css";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export default function PageComponent() {
   return (
     <div id="content">
@@ -64,7 +64,17 @@ export default function PageComponent() {
         <p>
           For any request or questions do not hesitate t contact us at the
           following email address: stoicamirela97@gmail.com. Also follow us below:
-          <ul></ul>
+          <ul>
+            <li>
+              Linkedin: <a href="www.linkedin.com/in/mirela-estera-stoica-b36492182"><FontAwesomeIcon icon="fa-brands fa-linkedin" style={{color: "#1a5fb4",}} /></a>
+            </li>
+            <li>
+              Instagram: <a href="www.instagram.com"><FontAwesomeIcon icon="fa-brands fa-instagram" style={{color: "#9141ac",}} /></a>
+            </li>
+            <li>
+              Youtube: <a href="www.youtube.com"><FontAwesomeIcon icon="fa-brands fa-youtube" style={{color: "#e01b24",}} /></a>
+            </li>
+          </ul>
         </p>
       </div>
     </div>
