@@ -3,7 +3,7 @@
 import './App.css';
 import NavbarComponent from "./components/Navbar/Navbar";
 import PageComponent from './components/Page_Content/Page_Content';
-
+import ScrollToTopButton from './components/ButtonScrollUp/Buton';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       </header>
       <body>
         <PageComponent />
+        <ScrollToTopButton />
       </body>
     </div>
   );
