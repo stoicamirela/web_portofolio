@@ -63,7 +63,7 @@ export default function PageComponent() {
       <div className={s.page_content}>
         <p>
           For any request or questions do not hesitate t contact us at the
-          following email address:
+          following email address: stoicamirela97@gmail.com. Also follow us below:
           <ul></ul>
         </p>
       </div>
