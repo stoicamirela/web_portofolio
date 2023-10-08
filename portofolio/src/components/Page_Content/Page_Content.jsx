@@ -3,8 +3,8 @@ import s from "./style.module.css";
 export default function PageComponent() {
   return (
     <div id="content">
-      <h1>About us</h1>
-      <div className={s.page_content} id="about">
+      <h1 id="about">About us</h1>
+      <div className={s.page_content} >
         <p>
           At GraphicDesign.io, we were founded in 2015 by a team of passionate
           designers who wanted to help businesses achieve their design goals.
@@ -18,8 +18,8 @@ export default function PageComponent() {
           designs that effectively represent their brand image.
         </p>
       </div>
-      <h1>Our services</h1>
-      <div className={s.page_content} id="services">
+      <h1 id="services">Our services</h1>
+      <div className={s.page_content} >
         <p>
           We at GraphicDesign.io, we offer a range of specialized services to
           help businesses achieve their design goals. Here are some of the
@@ -59,8 +59,8 @@ export default function PageComponent() {
         </ul>
         {/* </p> */}
       </div>
-      <h1>Contact</h1>
-      <div className={s.page_content} id="contact">
+      <h1 id="contact">Contact</h1>
+      <div className={s.page_content}>
         <p>
           For any request or questions do not hesitate t contact us at the
           following email address:
