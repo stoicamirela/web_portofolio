@@ -4,6 +4,8 @@ import './App.css';
 import NavbarComponent from "./components/Navbar/Navbar";
 import PageComponent from './components/Page_Content/Page_Content';
 import ScrollButton from './components/ScrollButon/ScrollButton';
+import CarouselComponent from './components/CarouselComponent/CarouselComponent';
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
         <NavbarComponent />
       </header>
       <body>
+        <CarouselComponent />
         <PageComponent />
         <ScrollButton />
       </body>
