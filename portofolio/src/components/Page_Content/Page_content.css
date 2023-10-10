@@ -6,3 +6,12 @@
 h1 {
   font-family: "Gabarito", sans-serif;
 }
+
+#content{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.page_content{
+  padding-top: 50px;
+}
