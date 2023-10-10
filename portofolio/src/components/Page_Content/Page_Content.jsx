@@ -2,7 +2,9 @@ import "./Page_content.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function PageComponent() {
   return (
-    <div id="content">
+    <div id="content" className="container">
+      
+      
       {/* about section */}
       <div className="page_content" id="about">
         <h1>About us</h1>
