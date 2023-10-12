@@ -4,7 +4,7 @@ import video from "../../assets/videos/graphic_design_promo.mp4";
 export default function VideoComponent(){
   return(
     <div className="container">
-      <video src={video} width="1000" height="700" controls="controls" autoplay="true"/>     
+      <video src={video} width="1000" height="700" controls="controls"/>     
     </div>
   );
 }
