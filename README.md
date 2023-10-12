@@ -11,3 +11,6 @@ In the extracted folder "web_portofolio",
  cd portofolio
  npm start and you see a webpage with all contents.
 For the needed packages, please check the import statements since I haven't made a requirements.txt file yet. Thank you!
+
+Deployment for directly testing the project is done at this page:
+https://web-portofolio-delta-nine.vercel.app/
