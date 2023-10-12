@@ -1,3 +1,4 @@
+
 import "./Page_content.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function PageComponent() {
@@ -60,7 +61,7 @@ export default function PageComponent() {
               creativity to your marketing materials.
             </li>
             <li>
-              <b>Product Design:</b> We can help you design product pages that
+              <b>Product Page Design:</b> We can help you design product pages that
               showcase your products, services, or ideas, as well as product
               packaging that is visually appealing and effective in promoting
               your products.
