@@ -76,8 +76,8 @@ export default function PageComponent() {
         <h1>Contact</h1>
         <div className="text_content">
           <p>
-            For any request or questions do not hesitate t contact us at the
-            following email address: stoicamirela97@gmail.com. Also follow us
+            For any request or questions do not hesitate to contact us at the
+            following email address: contact@graphicdesign.io. Also follow us
             below:
             <ul>
               <li>
