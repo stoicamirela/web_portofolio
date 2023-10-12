@@ -1,11 +1,14 @@
-
 import "./Page_content.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import photo from "../../assets/images/stock-office-work-_17e540fd7e8_large.jpg";
+import VideoComponent from "../VideoComponent/VideoComponent";
+
 export default function PageComponent() {
   return (
     <div id="content" className="container">
-      
-      
+      {/* video below the navbar */}
+      <VideoComponent />
+      <img src={photo} alt="a stock office" />
       {/* about section */}
       <div className="page_content" id="about">
         <h1>About us</h1>
@@ -61,10 +64,10 @@ export default function PageComponent() {
               creativity to your marketing materials.
             </li>
             <li>
-              <b>Product Page Design:</b> We can help you design product pages that
-              showcase your products, services, or ideas, as well as product
-              packaging that is visually appealing and effective in promoting
-              your products.
+              <b>Product Page Design:</b> We can help you design product pages
+              that showcase your products, services, or ideas, as well as
+              product packaging that is visually appealing and effective in
+              promoting your products.
             </li>
           </ul>
           {/* </p> */}
@@ -111,6 +114,7 @@ export default function PageComponent() {
           </p>
         </div>
       </div>
+      {/* end of contact div */}
     </div>
   );
 }
