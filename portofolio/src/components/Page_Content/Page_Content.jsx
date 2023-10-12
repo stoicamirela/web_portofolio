@@ -1,6 +1,8 @@
 import "./Page_content.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import photo from "../../assets/images/stock-office-work-_17e540fd7e8_large.jpg";
+import photo_call from "../../assets/images/stock-office-work-_17e540fd7e8_large.jpg";
+import business_women_img from "../../assets/images/business-women-working.jpg";
+import flat_meeting from "../../assets/images/flat_style_meeting.jpeg";
 import VideoComponent from "../VideoComponent/VideoComponent";
 
 export default function PageComponent() {
@@ -8,10 +10,10 @@ export default function PageComponent() {
     <div id="content" className="container">
       {/* video below the navbar */}
       <VideoComponent />
-      <img src={photo} alt="a stock office" />
       {/* about section */}
       <div className="page_content" id="about">
         <h1>About us</h1>
+        <img src={flat_meeting} alt="flat style meeting created with bing images creator" />
         <div className="text_content">
           <p>
             At GraphicDesign.io, we were founded in 2015 by a team of passionate
@@ -31,6 +33,7 @@ export default function PageComponent() {
       {/* services section */}
       <div className="page_content" id="services">
         <h1>Our services</h1>
+        <img src={business_women_img} alt="business women working" />
         <div className="text_content">
           <p>
             We at GraphicDesign.io, we offer a range of specialized services to
@@ -77,6 +80,7 @@ export default function PageComponent() {
       {/* contact section */}
       <div className="page_content" id="contact">
         <h1>Contact</h1>
+        <img src={photo_call} alt="a stock call" />
         <div className="text_content">
           <p>
             For any request or questions do not hesitate to contact us at the
