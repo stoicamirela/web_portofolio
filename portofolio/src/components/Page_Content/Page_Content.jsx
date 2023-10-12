@@ -1,5 +1,6 @@
 import "./Page_content.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Zoom from "react-reveal/Zoom";
 import photo_call from "../../assets/images/stock-office-work-_17e540fd7e8_large.jpg";
 import business_women_img from "../../assets/images/business-women-working.jpg";
 import flat_meeting from "../../assets/images/flat_style_meeting.jpeg";
@@ -11,11 +12,13 @@ export default function PageComponent() {
       {/* video below the navbar */}
       <VideoComponent />
       {/* about section */}
+      
       <div className="page_content" id="about">
+        <Zoom>
         <h1>About us</h1>
-        <img src={flat_meeting} alt="flat style meeting created with bing images creator" />
+        <img src={flat_meeting} alt="flat style meeting created with bing images creator" /></Zoom>
         <div className="text_content">
-          <p>
+          <Zoom><p>
             At GraphicDesign.io, we were founded in 2015 by a team of passionate
             designers who wanted to help businesses achieve their design goals.
             Our team has grown to include over 50 employees who are dedicated to
@@ -26,21 +29,21 @@ export default function PageComponent() {
             that help businesses stand out in their respective industries. We
             take pride in our work and strive to provide our clients with
             high-quality designs that effectively represent their brand image.
-          </p>
+          </p></Zoom>
         </div>
       </div>
 
       {/* services section */}
       <div className="page_content" id="services">
-        <h1>Our services</h1>
-        <img src={business_women_img} alt="business women working" />
+        <Zoom><h1>Our services</h1>
+        <img src={business_women_img} alt="business women working" /></Zoom>
         <div className="text_content">
-          <p>
+          <Zoom><p>
             We at GraphicDesign.io, we offer a range of specialized services to
             help businesses achieve their design goals. Here are some of the
             services we provide:
-          </p>
-          <ul>
+          </p></Zoom>
+          <Zoom><ul>
             <li>
               <b>Logo Design:</b> We can help you create a unique and visually
               appealing logo that effectively represents your brand image.
@@ -72,17 +75,17 @@ export default function PageComponent() {
               product packaging that is visually appealing and effective in
               promoting your products.
             </li>
-          </ul>
+          </ul></Zoom>
           {/* </p> */}
         </div>
       </div>
 
       {/* contact section */}
       <div className="page_content" id="contact">
-        <h1>Contact</h1>
-        <img src={photo_call} alt="a stock call" />
+        <Zoom><h1>Contact</h1>
+        <img src={photo_call} alt="a stock call" /></Zoom>
         <div className="text_content">
-          <p>
+          <Zoom><p>
             For any request or questions do not hesitate to contact us at the
             following email address: contact@graphicdesign.io. Also follow us
             below:
@@ -115,7 +118,7 @@ export default function PageComponent() {
                 </a>
               </li>
             </ul>
-          </p>
+          </p></Zoom>
         </div>
       </div>
       {/* end of contact div */}
